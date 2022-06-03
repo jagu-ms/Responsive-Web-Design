@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles.css"/>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <h1 id="title">JAGU Servey Form</h1>
+  <p id="description">I'm emproving my html and css skills</p>
+  <form action="" id="survey-form">
+    <label id="name-label">
+      Name
+      <input name="name" id="name" type="text" placeholder="name" required/>
+    </label>
+    <label id="email-label">
+      Email
+      <input name="email" id="email" type="email" placeholder="email" required/>
+    </label>
+    <label id="number-label">
+      Age
+      <input name="age" id="number" type="number" min="13" max="120" placeholder="Age"/>
+    </label>
+    <label>
+      Which is your current role?
+      <select name="role" id="dropdown" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Fulltime Job</option>
+        <option value="learner">Fulltime Learner</option>
+        <option value="other">Other</option>
+      </select>
+    </label>  
+    <label class="fields">
+      Would you recommend self learning to friends
+      <label>
+        <input id="number" name="recommend" type="radio" class="inline"/>
+        Definitely
+      </label>
+      <label>
+        <input id="number" name="recommend" type="radio" class="inline"/>
+        Maybe
+      </label>
+      <label>
+        <input id="number" name="recommend" type="radio" class="inline"/>
+        Not Sure
+      </label>
+    </label>
+    <label class="fields">
+      What skills are working with?
+      <label>
+        <input value="htmlandcss" name="skill" type="checkbox" class="inline"/>
+        HTML and CSS
+      </label>
+      <label>
+        <input value="javascript" name="skill" type="checkbox" class="inline"/>
+        Javascript
+      </label>
+      <label>
+        <input value="react" name="skill" type="checkbox" class="inline"/>
+        React
+      </label>
+      <label>
+        <input value="git" name="skill" type="checkbox" class="inline"/>
+        Git
+      </label>
+      <label>
+        <input value="sql" name="skill" type="checkbox" class="inline"/>
+        SQL
+      </label>
+      <label>
+        <input value="mongodb" name="skill" type="checkbox" class="inline"/>
+        MongoDB
+      </label>
+      <label>
+        <input value="postegrsql" name="skill" type="checkbox" class="inline"/>
+        PostgrSQL
+      </label>
+    </label>
+    <label class="fields">
+      Giving as your feadback?
+      <textarea name="textarea" rows="8" cols="8" placeholder="Enter your feedback">
+      </textarea>
+    </label>
+    <label>
+      <input type="submit" value="submit"/>
+    </label>
+  </form>
+</div>
+</body>
+</html>
