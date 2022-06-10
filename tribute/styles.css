@@ -1,0 +1,56 @@
+body {
+  background-color: #0D0D0D;
+  margin: 0;
+  font-family: Tahoma;
+	font-size: 16px;
+  color: #D6D6D6;
+}
+
+#main {
+  background-color: #1A1A1A;
+  width: 98%;
+  margin: 2rem auto;
+  padding: 2rem 0;
+  border-radius: 4px;
+} 
+
+h1, p {
+  text-align: center;
+}  
+
+figure {
+  background-color: #303030;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin: 2rem;
+}
+
+h3 {
+  margin: 5rem 0 2rem 0;
+  text-align: center;
+}
+
+ul {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+ul li {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+h4 {
+  text-align: center;
+  margin: 0 1rem;
+}
